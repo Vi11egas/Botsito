@@ -2858,31 +2858,31 @@ case 'menuofc':
 
 case 'menugrupo':
               reply('Cargando menu, porfavor espera.\n\nNo hagas spam de comandos')
-              leo.sendMessage(from, fs.readFileSync('./media/imagen/fakae.jpg'), image, {caption: `${grupos}`, quoted: chr, contextInfo: { mentionedJid: [sender,Oowner]}})
+              leo.sendMessage(from, fs.readFileSync('./media/imagen/fakae2.jpg'), image, {caption: `${grupos}`, quoted: chr, contextInfo: { mentionedJid: [sender,Oowner]}})
               break
 
 case 'menumedia':
               reply('Cargando menu, porfavor espera.\n\nNo hagas spam de comandos')
-              leo.sendMessage(from, fs.readFileSync('./media/imagen/fakae.jpg'), image, {caption: `${multimedia}`, quoted: chr, contextInfo: { mentionedJid: [sender,Oowner]}})
+              leo.sendMessage(from, fs.readFileSync('./media/imagen/fakae2.jpg'), image, {caption: `${multimedia}`, quoted: chr, contextInfo: { mentionedJid: [sender,Oowner]}})
               break
 
 case 'menuowner':
               reply('Cargando menu, porfavor espera.\n\nNo hagas spam de comandos')
-              leo.sendMessage(from, fs.readFileSync('./media/imagen/fakae.jpg'), image, {caption: `${owener}`, quoted: chr, contextInfo: { mentionedJid: [sender,Oowner]}})
+              leo.sendMessage(from, fs.readFileSync('./media/imagen/fakae2.jpg'), image, {caption: `${owener}`, quoted: chr, contextInfo: { mentionedJid: [sender,Oowner]}})
               break
 
 case 'menulogo':
               reply('Cargando menu, porfavor espera.\n\nNo hagas spam de comandos')
-              leo.sendMessage(from, fs.readFileSync('./media/imagen/fakae.jpg'), image, {caption: `${logos}`, quoted: chr, contextInfo: { mentionedJid: [sender,Oowner]}})
+              leo.sendMessage(from, fs.readFileSync('./media/imagen/fakae2.jpg'), image, {caption: `${logos}`, quoted: chr, contextInfo: { mentionedJid: [sender,Oowner]}})
               break
 
 case 'entretenimiento':
               reply('Cargando menu, porfavor espera.\n\nNo hagas spam de comandos')
-              leo.sendMessage(from, fs.readFileSync('./media/imagen/fakae.jpg'), image, {caption: `${entrete}`, quoted: chr, contextInfo: { mentionedJid: [sender,Oowner]}})
+              leo.sendMessage(from, fs.readFileSync('./media/imagen/fakae2.jpg'), image, {caption: `${entrete}`, quoted: chr, contextInfo: { mentionedJid: [sender,Oowner]}})
               break
 
 case 'creador':
-              leo.sendMessage(from, fs.readFileSync('./media/imagen/fakae.jpg'), image, {caption: `${base}`, quoted: chr, contextInfo: { mentionedJid: [sender,Oowner]}})
+              leo.sendMessage(from, fs.readFileSync('./media/imagen/fakae2.jpg'), image, {caption: `${base}`, quoted: chr, contextInfo: { mentionedJid: [sender,Oowner]}})
               break
 
 case 'creditos':
