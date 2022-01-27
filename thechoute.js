@@ -1163,7 +1163,7 @@ if (choute.message.listResponseMessage){
   reply('Cargando comandos para grupos, por favor espera.')
   txtt =`${texto}\n${grupos}`
   buttons1 = [{buttonId:`listadmin`,buttonText:{displayText: 'Lista de Administradores'},type:1},]
-  imageMsg = (await leo.prepareMessageMedia(fs.readFileSync(`./media/imagen/admin.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/imagen/fake.jpg`)})).imageMessage
+  imageMsg = (await leo.prepareMessageMedia(fs.readFileSync(`./media/imagen/admin2.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/imagen/fake.jpg`)})).imageMessage
   buttonsMessage = {
   contentText: `${txtt}`,
   footerText: '© Creador base 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊\nInstagram: instagram.com/the_choute_', imageMessage: imageMsg,
@@ -1288,7 +1288,7 @@ if (choute.message.listResponseMessage){
 if (choute.message.buttonsResponseMessage){
   test = choute.message.buttonsResponseMessage.selectedButtonId
   if (test.includes(`pos`)){
-    leo.sendMessage(from, fs.readFileSync('./media/imagen/admin.jpg'), image, {caption: `${allmenu}`, quoted: choute, contextInfo: { mentionedJid: [sender,Oowner]}})
+    leo.sendMessage(from, fs.readFileSync('./media/imagen/admin2.jpg'), image, {caption: `${allmenu}`, quoted: choute, contextInfo: { mentionedJid: [sender,Oowner]}})
     addFilter(from)
       addLevelingLevel(sender, 5)	}}
 
