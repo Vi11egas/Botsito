@@ -553,7 +553,7 @@ const chr = {
   "product": {
   "productImage":{
   "mimetype": "image/jpeg",
-  "jpegThumbnail": fs.readFileSync(`./media/imagen/GFX.jpg`)
+  "jpegThumbnail": fs.readFileSync(`./media/imagen/GFX2.jpg`)
   },
   "title": `${yo} | EVC`,
   "description": "",
