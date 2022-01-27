@@ -1201,7 +1201,7 @@ if (test.includes(`menuowner`)){
 leo.updatePresence(from, Presence.composing)
 if (!isRegister) return reply(baby.only.usrReg)
 uptime = process.uptime()
-leo.sendMessage(from, fs.readFileSync('./media/imagen/cower.jpg') , MessageType.image, {caption: `${texto}\n${owener}`, quoted: choute,  contextInfo: { mentionedJid: [sender,Oowner]} })  
+leo.sendMessage(from, fs.readFileSync('./media/imagen/cower2.jpg') , MessageType.image, {caption: `${texto}\n${owener}`, quoted: choute,  contextInfo: { mentionedJid: [sender,Oowner]} })  
 addFilter(from)
 addLevelingLevel(sender, 5)	}}
   //MENU MEDIA
