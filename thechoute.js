@@ -2000,7 +2000,7 @@ case 'creador':
     tu = await leo.getStatus(`${Oowner.split('@')[0]}@c.us`, MessageType.text)
 
 its = await getBuffer (ppimg)
-    leo.sendMessage(from,  its, image, {thumbnail:fs.readFileSync('./media/imagen/cmayor.jpg'), quoted: choute, caption: 
+    leo.sendMessage(from,  its, image, {thumbnail:fs.readFileSync('./media/imagen/cmayor2.jpg'), quoted: choute, caption: 
 `${timeFt} @${sender.split('@')[0]}
 _Acontinuacion te muestro, mi creador, de preferencia solo hablare si necesitas algo :D_
 
